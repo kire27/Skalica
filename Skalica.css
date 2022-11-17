@@ -1,0 +1,344 @@
+html {
+
+}
+body {
+	width: 100%;
+	min-width: 1650px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #2C2C2C;
+}
+
+
+h1 {
+	font-size: 140px;
+	color: white;
+	font-family: 'Jost', sans-serif;
+	margin-top: -220px;
+	align-items: center;
+}
+h2 {
+	font-size: 32px;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: -130px;
+}
+h3 {
+	font-size: 20px;
+	font-family: 'Calibri Light';
+	color: #c8c8c8;
+}
+h3:hover {
+	color: #439639;
+}
+h4 {
+	/*top: 20%;
+	margin-left: 20px;
+	margin-right: 20px;*/
+	font-size: 20px;
+	font-family: 'Calibri Light';
+	color: #c8c8c8;
+}
+h5 {
+	font-size: 40px;
+	color: #BC6565;
+	font-family: 'Jost', sans-serif;
+	margin-bottom: 5px;
+	margin-top: 4px;
+}
+h6 {
+	color: white;
+	font-size: 19px;
+	padding: 2;
+	padding-top: 5px;
+	margin: 0;
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 4px; 
+	/*border: 1px red solid;*/
+}
+.Alinks {
+	color: #6ca65c;
+}
+
+
+
+.logo-icon {
+	float: left;
+	/*top: 20%;*/
+	margin-left: 25%;
+	margin-right: 5%;
+	/*padding-right: 20px;*/
+	/*padding-bottom: 20px;*/
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.ULnavbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	top: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	overflow: hidden;
+	/*width: 100%;*/
+	background-color: #1a1a1a;
+	z-index: 100;
+}
+.LInavbar {
+	float: left;
+	padding-right: 1%;
+}
+li a, .dropbtn  {
+	display: block;
+	color: #c8c8c8;
+	margin-bottom: -5px;
+	text-align: center;
+	padding: 0px 10px;
+	text-decoration: none;
+	margin-top: -10px;
+}
+li a:hover, .dropdown:hover, .dropbtn:hover {
+	color: white;
+}
+.dropdown {
+ 	display: inline-block;
+}
+.dropdown-content {
+ 	display: none;
+  	position: fixed;
+ 	background-color: #f9f9f9;
+  	min-width: 150px;
+  	height: auto;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+.dropdown-content a {
+	background-color: #c8c8c8;
+  	color: black;
+  	font-size: 15px;
+  	font-family: 'Jost', sans-serif;
+  	margin-top: 5px;
+  	padding: 10px 15px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #383838;
+}
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+
+
+
+.IMGtitle {
+	width: 100%;
+	top: 0;
+}
+.DIVtitle {
+	text-align: center;
+}
+
+
+
+.CONTAINERskalica {
+	width: 80%;
+	height: auto;
+	position: static;
+	z-index: 1;
+}
+.DIVskalicadescription {
+	float: right;
+	width: 70%;
+	height: auto;
+	padding-bottom: 10px;
+	/*position: absolute;
+	z-index: 1;*/
+}
+.DIVskalicadescription {
+	margin-top: -25%;
+	align-items: left;
+	margin-right: 10%;
+	color: #c8c8c8;
+	font-family: 'Calibri Light';
+	font-size: 17.5px;
+}
+.IMGdescription {
+	width: 250px;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+
+
+.ULnews {
+	/*border: 1px solid black;
+	width: 90%;*/
+	height: auto;
+	list-style-type: none;
+}
+.caret {
+	cursor: pointer;
+	margin-left: -30px;
+}
+.caret::before {
+  	content: "►";
+  	display: inline-block;
+  	margin-right: ;
+}
+.caret-down::before {
+	-ms-transform: rotate(90deg);
+  	-webkit-transform: rotate(90deg); 
+  	transform: rotate(90deg);
+}
+.nested {
+  	display: none;
+  	margin-bottom: 5px;
+  	margin-left: -35px;
+  	list-style-type: none;
+}
+
+.active {
+  	display: block;
+}
+
+
+
+.DIVskalicahours {
+	float: left;
+}
+.ULskalchours1 {
+	width: 15%;
+	margin-left: 15%;
+	display: block;
+	text-align: center;
+} 
+.LImestsUrad {
+	background-color: #6c9e60;
+	color: black;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 1%;
+	list-style: none;
+}
+.LImestshodiny {
+	color: black;
+	font-size: 16px;
+	background-color: #90b487;
+	font-family: 'Calibri Light';
+	padding: 0.5%;
+	list-style: none;
+}
+
+
+
+#map {
+	height: 400px;
+	width: 100%;
+	/*margin-top: 18%;*/
+	position: static;
+	z-index: 1;
+}/* Veľmi sa mi páčilo zobrazenie mapy mesta na stránkach ako na: https://www.skalica.sk/  tak som to chcel pridať aj keď to nefunguje najlepšie (lebo nemám vlastný registráčný kód). Spravil som to vďaka tomuto youtuberovy: https://www.youtube.com/watch?v=9CY0V0JAgNU */
+
+
+
+.DIVfooter {
+	position: static;
+	width: 100%;
+	z-index: 1;
+}
+footer {
+	width: 100%;
+	height: 310px;
+	bottom: 0;
+	background-color: #1a1a1a;
+}
+.TABLEfooter {
+	padding: 1%;
+	margin-left: 30%; 
+	float: left;
+	margin-bottom: -100%;
+}
+.TABLEfooter2 {
+	padding: 1%;
+	margin-right: 30%;
+	float: right;
+}
+.THfooter {
+	font-size: 30px;
+	color: #BD2222;
+	font-family: 'Quicksand', sans-serif;
+}
+.TDfooter {
+	font-size: 20px;
+	color: white;
+	font-family: 'Jost', sans-serif;
+}
+.Afooter {
+	font-size: 20px;
+	color: white;
+	font-family: 'Jost', sans-serif;
+}
+
+
+
+.TABLEposlanci {
+	background-color: #242424;
+	width: 830px;
+}
+.THposlanci {
+	background-color: #404040;+
+	text-align: center;
+}
+
+
+.IMGsymboly {
+	float: left; 
+	padding: 5px;
+}
+
+
+
+.IMGkultura {
+	height: 230px;
+	margin-bottom: -4px;
+}
+
+.TABLEkultura {
+	border-bottom: 1px white solid;
+	margin-bottom: 33px;
+	text-align: center;
+	width: auto;
+}
+.THkultura {
+	border: 1px gray solid;
+}
+
+
+/*
+<table class="TABLEkultura">
+	<tr>
+		<th class="THkultura"><img class="IMGkultura" src=""></td>
+		<th class="THkultura"><img class="IMGkultura" src=""></td>
+		<th class="THkultura"><img class="IMGkultura" src=""></td>
+		<th class="THkultura"><img class="IMGkultura" src=""></td>
+		<th class="THkultura"><img class="IMGkultura" src=""></td>
+	</tr>
+	<tr>
+		<td class="TDkultura"><b></b></td>
+		<td class="TDkultura"></td>
+		<td class="TDkultura"></td>
+		<td class="TDkultura"></td>
+		<td class="TDkultura"></td>
+	</tr>
+</table>
+*/
